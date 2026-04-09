@@ -1,0 +1,13 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.slxc
+*.autosave
+slprj/
+.simcache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

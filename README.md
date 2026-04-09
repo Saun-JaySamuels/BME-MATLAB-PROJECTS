@@ -1,6 +1,6 @@
 # BME MATLAB Projects
 
-A collection of MATLAB scripts developed during my Biomedical Engineering coursework at **Florida Gulf Coast University (FGCU)**. These projects cover cardiovascular system simulation, biomechanical kinematics, motion capture data processing, and engineering optimization.
+A collection of MATLAB scripts developed during my Biomedical Engineering coursework at **Florida Gulf Coast University (FGCU)**. These projects cover biomechanical kinematics analysis and engineering optimization.
 
 **Author:** Saun-Jay Samuels
 **Program:** Biomedical Engineering, FGCU
@@ -12,12 +12,7 @@ A collection of MATLAB scripts developed during my Biomedical Engineering course
 
 ```
 BME-MATLAB-Projects/
-├── BME3404C-Cardiovascular-Simulation/
-│   ├── Command_Cardio_SA_LV.m       ← Left-heart cardiovascular model
-│   └── README.md
-│
 ├── BME3506C-Circuits-and-Kinematics/
-│   ├── autoFileLoad.m               ← QTM motion capture batch loader
 │   ├── KinematicsAlpha.m            ← Lower-limb angular acceleration
 │   └── README.md
 │
@@ -31,17 +26,10 @@ BME-MATLAB-Projects/
 
 ## Projects at a Glance
 
-### [BME3404C – Cardiovascular Simulation](./BME3404C-Cardiovascular-Simulation)
-A MATLAB/Simulink command script that simulates the left-heart cardiovascular system using a lumped-parameter model. Models ventricular pressure, systemic arterial pressure, blood flows (mitral, aortic, systemic), and generates pressure-volume loops across 16 cardiac cycles.
-
-**Topics:** Cardiovascular physiology, Simulink, compliance/resistance modeling, pressure-volume analysis
-
----
-
 ### [BME3506C – Circuits and Kinematics](./BME3506C-Circuits-and-Kinematics)
-Two scripts covering motion capture data processing and biomechanical analysis. `autoFileLoad.m` restructures Qualisys Track Manager (QTM) `.mat` exports into a clean MATLAB struct. `KinematicsAlpha.m` computes the angular acceleration of the shank segment from 2D marker coordinates.
+A MATLAB script that computes the angular acceleration of the shank segment during human motion. Uses 2D Hip, Knee, and Ankle marker data to decompose acceleration into normal and tangential components, applying inverse kinematics to find the segment's angular acceleration (alpha).
 
-**Topics:** Biomechanics, motion capture, inverse kinematics, vector decomposition, force plate data
+**Topics:** Biomechanics, inverse kinematics, vector decomposition, motion analysis
 
 ---
 
@@ -55,8 +43,7 @@ Two linear programming problems solved with MATLAB's `linprog`. One maximizes ma
 ## Requirements
 
 - MATLAB R2019b or later
-- Simulink (for BME3404C cardiovascular model)
-- Optimization Toolbox (for BME4722 linear programming)
+- Optimization Toolbox (for BME4722 linear programming scripts)
 
 ---
 

@@ -1,4 +1,4 @@
-# BME 3506C – Circuits and Kinematics
+# BME 3506C – Circuits for Bioengineers
 
 **Course:** Circuits for Bioengineers
 **Institution:** Florida Gulf Coast University

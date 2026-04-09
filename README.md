@@ -12,7 +12,7 @@ A collection of MATLAB scripts developed during my Biomedical Engineering course
 
 ```
 BME-MATLAB-Projects/
-├── BME3506C-Circuits-and-Kinematics/
+├── BME3506C-Circuits-for-Bioengineers/
 │   ├── KinematicsAlpha.m                    ← Lower-limb angular acceleration
 │   └── README.md
 │
@@ -38,14 +38,14 @@ BME-MATLAB-Projects/
 
 ## Projects at a Glance
 
-### [BME3506C – Circuits and Kinematics](./BME3506C-Circuits-and-Kinematics)
+### [BME3506C – Circuits for Bioengineers](./BME3506C-Circuits-for-Bioengineers)
 Computes the angular acceleration of the shank segment during human motion using 2D Hip, Knee, and Ankle marker data. Decomposes acceleration into normal and tangential components to find segment alpha via inverse kinematics.
 
 **Topics:** Biomechanics, inverse kinematics, vector decomposition
 
 ---
 
-### [BME4722 – Healthcare Engineering Optimization](./BME4722-Healthcare-Optimization)
+### [BME4722 – Healthcare Engineering](./BME4722-Healthcare-Optimization)
 Two linear programming problems solved with MATLAB's `linprog`. One maximizes manufacturing profit under labor constraints; the other finds the minimum-cost grain blend meeting per-serving RDA requirements for protein, riboflavin, phosphorus, and magnesium.
 
 **Topics:** Linear programming, `linprog`, operations research, nutritional optimization
